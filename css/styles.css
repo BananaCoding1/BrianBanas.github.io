@@ -14,3 +14,12 @@ h1
     margin-right: auto;
     display: block;
 }
+a:link,a:visited{
+    color:green;
+}
+a:hover{
+    color:yellow;
+}
+a:active{
+    color:red;
+}

@@ -22,14 +22,50 @@ h6
 }
 .container
 {
+ padding: 10px, 20px, 10px, 20px;   
+}
+div
+{
     display: grid;
-    grid-template-columns: repeat(2, 100px);
-    grid-template-rows: repeat(2, 100px);
-    
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 100px);
 }
 @media (min-width: 800px)
 {
-      
+      div
+      {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 300px);   
+      }
+      #schoolimg
+      {
+         grid-column-start: 1;
+         grid-column-end:2 ;
+         grid-row-start:2 ;
+         grid-row-end: 3;
+      }
+      #school
+      {
+         grid-column-start: 1;
+         grid-column-end: 2;
+         grid-row-start: 1;
+         grid-row-end: 2;
+      }
+      #contactimg
+      {
+         grid-column-start: 2;
+         grid-column-end:3 ;
+         grid-row-start:2 ;
+         grid-row-end: 3;
+      }
+      #contact
+      {
+         grid-column-start: 2;
+         grid-column-end: 3;
+         grid-row-start: 1;
+         grid-row-end: 2;
+      }
 }
 a:link,a:visited
 {

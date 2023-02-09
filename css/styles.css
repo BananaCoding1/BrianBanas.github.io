@@ -32,21 +32,25 @@ div
 }
 #schoolimg
 {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 #school
 {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 #contactimg
 {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 #contact
 {
+    display: flex;
     align-items: center;
     justify-content: center;
 }

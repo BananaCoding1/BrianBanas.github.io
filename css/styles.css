@@ -66,31 +66,33 @@ div
       {
         align-items: left;
         justify-content: left;
-         grid-column-start: 1;
-         grid-column-end:2 ;
-         grid-row-start:2 ;
-         grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end:2 ;
+        grid-row-start:2 ;
+        grid-row-end: 3;
       }
       #school
       {
-         grid-column-start: 1;
-         grid-column-end: 1;
-         grid-row-start: 1;
-         grid-row-end: 1;
+        align-items: center;
+        justify-content: center;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
       }
       #contactimg
       {
-         grid-column-start: 2;
-         grid-column-end:3 ;
-         grid-row-start:2 ;
-         grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end:3 ;
+        grid-row-start:2 ;
+        grid-row-end: 3;
       }
       #contact
       {
-         grid-column-start: 2;
-         grid-column-end: 3;
-         grid-row-start: 1;
-         grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
       }
 }
 a:link,a:visited

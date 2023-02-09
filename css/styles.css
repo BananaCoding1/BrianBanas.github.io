@@ -30,7 +30,22 @@ div
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, auto);   
 }
-nav
+#schoolimg
+{
+    align-items: center;
+    justify-content: center;
+}
+#school
+{
+    align-items: center;
+    justify-content: center;
+}
+#contactimg
+{
+    align-items: center;
+    justify-content: center;
+}
+#contact
 {
     align-items: center;
     justify-content: center;
